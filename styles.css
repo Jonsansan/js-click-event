@@ -24,19 +24,24 @@
 
 button {
   font-family: "Monsieur La Doulaise", cursive;
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  background-color: #23211b;
-  color: #93e38587;
-  border: none;
-  border-radius: 5px;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #508b35;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border: 1px solid #284515;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #19390f, -6px -6px 12px #1d6e31;
 }
 
 .monsieur-la-doulaise-regular {
   font-family: "Monsieur La Doulaise", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+button:active {
+  color: #022305;
+  box-shadow: inset 4px 4px 12px #115119, inset -4px -4px 12px #295b0f;
 }
